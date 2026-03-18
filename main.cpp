@@ -1,9 +1,23 @@
 #include <iostream>
 using namespace std;
 
+/*
+    Hàm namnhuan
+    Chức năng: kiểm tra một năm có phải là năm nhuận hay không
+    Đầu vào: năm (số nguyên)
+    Đầu ra: true nếu là năm nhuận và ngược lại false
+*/
+
 bool namnhuan(int a){
     return (a % 4 == 0 && a % 100 != 0 || a % 400 == 0);
 }
+
+/*
+    Hàm main
+    Chức năng: nhập một ngày, tháng, năm và tìm ngày kế tiếp của ngày đó
+    Đầu vào: ngày, tháng, năm
+    Đầu ra: ngày kế tiếp
+*/
 
 int main()
 {
